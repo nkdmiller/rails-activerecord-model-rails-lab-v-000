@@ -92,6 +92,7 @@ Migrating to CreateStudents (1)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name") VALUES (?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (2.4ms)[0m  DELETE FROM "students";
   [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
@@ -110,3 +111,5 @@ Migrating to CreateStudents (1)
   [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("first_name", "last_name") VALUES (?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> a119d82d5f96109188641f1613193c9cd6ec5d94
